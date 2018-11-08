@@ -146,7 +146,7 @@ img {
 		clear: left;
 	}
 	#menu {
-	    left: 25%;
+	    left: 20%;
 	}
 	#img {
 		top: 58px;  
@@ -164,6 +164,9 @@ img {
 }
 
 @media screen and (max-width: 550px) {
+	#menu {
+		left: 5%;
+	}
 	#img {
 		margin-left: 5%;
     }

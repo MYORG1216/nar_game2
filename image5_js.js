@@ -7,14 +7,16 @@
 		$("#img_cvr").append("<div>"+i+"</div>");
 	}
 
-	    $("#img_cvr div").click ( function () {
+	$("#img_cvr div").click ( function () {
+		if($(this).css("background") !== "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box") {
 			a++;
-			if (a<4) {
-				this.style.background="transparent";
-				this.innerHTML="";					
-					game_timer(a);
+			if (a < 4) {
+				$(this).css("background", "transparent");
+				$(this).html("");
+				game_timer(a);
 			}
-	    });		
+		}
+	});
 
 	function game_timer(b) {
 		let t=0,
