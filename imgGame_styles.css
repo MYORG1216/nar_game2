@@ -10,12 +10,14 @@ body {
 	background: linear-gradient(to bottom, #ffcc99 0%, #99ccff 100%);
 	font-size: 60px;
 	color: darkslateblue;
+	border-bottom: dashed;
+	border-bottom-color: snow;
 }
 #cob {
 	position: relative;
 	top: 60px;
 	text-align: center;
-	color: darkslateblue;	
+	color: darkslateblue;
 	font-size: 40px;	
 }
 #menu {
@@ -87,7 +89,7 @@ body {
     height: 440px;
     width: 440px;  
     background-color: darkslateblue;
-    margin-left: 15%;    
+    margin-left: 15%;
 }
 img {
 	margin: 4px;
